@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const Api = axios.create({
     //set default endpoint API
-    baseURL: 'https://admd.almanshuriyyah.com/'
+    baseURL: 'https://admd.almanshuriyyah.com/api'
 })
 
 export default Api
